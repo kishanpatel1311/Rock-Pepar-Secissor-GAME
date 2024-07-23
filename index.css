@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    height: 60px;
+    background-color: blueviolet;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+}
+
+.choise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 25px;
+}
+
+.select{
+    padding: 5px;
+    font-size: 24px;
+}
+
+.main-board{
+    margin-top: 40px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 35px;
+}
+
+#user-score, #comp-score{
+    line-height: 75%;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.message{
+    display: flex;
+    margin-top: 50px;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+.msg{
+    padding: 15px;
+    text-align: center;
+    line-height: 2rem;
+    border: 2px solid black;
+    background-color: gainsboro;
+    font-size: 30px;
+    border-radius: 5px;
+}
